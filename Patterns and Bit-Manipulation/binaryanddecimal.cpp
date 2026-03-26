@@ -14,6 +14,8 @@ int main(){
         // int bit = n&1;
         int bit = n&1;
         answer = (bit *pow(10,i)) + answer ;
+
+
         n = n >> 1;
         i++;
     }
